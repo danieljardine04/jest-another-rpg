@@ -1,1 +1,3 @@
-console.log("hello idiot!");
+const Game = require('./lib/Game');
+
+new Game().initializeGame();
